@@ -13,3 +13,7 @@ response records and the controller interface consumed by
 
 This contract has no runtime configuration and requires no GitHub Actions
 secrets.
+
+The contract workflow validates formatting, Maven compilation, tests, quality,
+and CodeQL. It does not publish a container because it is a reusable Java
+library rather than a runnable service.
