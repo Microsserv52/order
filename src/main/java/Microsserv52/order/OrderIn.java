@@ -3,11 +3,9 @@ package Microsserv52.order;
 import java.util.List;
 
 import Microsserv52.OrderItem;
-import lombok.Builder;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotEmpty;
 
-@Builder 
-public record OrderIn (
-    List<OrderItem> items
-) {
-
-}
+public record OrderIn(
+    @NotEmpty List<@Valid OrderItem> items
+) {}
