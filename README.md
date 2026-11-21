@@ -1,5 +1,7 @@
 # Order contract
 
+![Tech Stack](https://skillicons.dev/icons?i=java,spring,postgres,docker,kubernetes,grafana,prometheus)
+
 Reusable Java API contract for the Order microservice. It defines request and
 response records and the controller interface consumed by
 [`order-service`](../order-service/).
